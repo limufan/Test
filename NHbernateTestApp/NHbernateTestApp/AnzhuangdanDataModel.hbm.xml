@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="BPMS.Data" assembly="NHbernateTestApp">
+  <class name="AnzhuangdanDataModel" table="o_I_Service">
+    <id name="ID" type="int">
+      <generator class="identity"/>
+    </id>
+    <property name="DocGuid"/>
+    <property name="DocNo"/>
+    <property name="DesignatedUser"/>
+    <property name="DesignatedDate"/>
+    <property name="Dispaching"/>
+    <property name="Accept"/>
+    <property name="AcceptGuid"/>
+    <property name="FirstUnitGuid"/>
+    <property name="AcceptUser"/>
+    <property name="AcceptDate"/>
+    <property name="CreatedBy"/>
+    <property name="CreatedOn"/>
+    <property name="DocType"/>
+    <property name="Status" />
+    <property name="delType"/>
+    <property name="reminder"/>
+    <property name="ProvinceCode"/>
+    <property name="CityCode"/>
+    <property name="AreaCode"/>
+    <property name="TownCode"/>
+    <property name="DesignatedUnitGuid"/>
+    <property name="ConsumerGuid"/>
+    <property name="ConsumerName"/>
+    <property name="Address"/>
+    <property name="ConsumerMobile"/>
+    <property name="ConsumerPhone"/>
+    <property name="OperatorLog"/>
+    <property name="designatedMark"/>
+    <property name="operation"/>
+    <property name="StatusViste1"/>
+    <property name="StatusViste2"/>
+    <property name="FinishDate"/>
+    <property name="CreatedOrg"/>
+    <property name="OriginCompany"/>
+    <property name="OriginDocNo"/>
+    <property name="OriginDocID"/>
+    <property name="OriginMainGuid"/>
+    <property name="OriginType"/>
+    <property name="OriginParam01"/>
+    <property name="OriginParam02"/>
+    <property name="IsStatements"/>
+    <property name="ProductGuid" />
+    <property name="Product"/>
+    <property name="ProductType"/>
+    <property name="BrandGuid"/>
+    <property name="Shop"/>
+    <property name="BuyDate"/>
+    <property name="SettlementType"/>
+    <property name="Remark1"/>
+    <property name="Product_I_Mold"/>
+    <property name="ClosedDate"/>
+    <property name="ProductionDate"/>
+  </class>
+</hibernate-mapping>
